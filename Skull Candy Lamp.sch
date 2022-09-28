@@ -4617,7 +4617,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA5_L" device="" value="LED ARRAY"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="6_PIN_SERIAL_TARGET" device="SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="SERIAL"/>
 <part name="PS1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="POLAR_LOCK" package3d_urn="urn:adsk.eagle:package:38046/1" value="PWR"/>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" package3d_urn="urn:adsk.eagle:package:40167/1" value="FLASH"/>
+<part name="FLASH" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM" package3d_urn="urn:adsk.eagle:package:40167/1" value="FLASH"/>
 </parts>
 <sheets>
 <sheet>
@@ -4642,7 +4642,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="VALUE" x="33.02" y="98.806" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="33.02" y="88.392" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="S1" gate="G$1" x="109.22" y="66.04" smashed="yes" rot="R270">
+<instance part="FLASH" gate="G$1" x="109.22" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.744" y="66.04" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="108.712" y="66.04" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
@@ -4662,7 +4662,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="96.52" y="60.96" size="0.8128" layer="95" xref="yes"/>
 <junction x="96.52" y="71.12"/>
 <wire x1="96.52" y1="73.66" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="FLASH" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="73.66"/>
@@ -4719,7 +4719,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="G0"/>
 <wire x1="83.82" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="109.22" y="58.42" size="0.8128" layer="95" xref="yes"/>
-<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="FLASH" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="60.96" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
